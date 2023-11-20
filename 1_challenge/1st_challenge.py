@@ -7,14 +7,15 @@
  * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
 '''
 
-for i in range (101):
- if (i % 3 == 0) and (i % 5 == 0):
-  print(f"{i} -> fizzbuzz")
- elif (i % 3 == 0):
-  print(f"{i} -> fizz")
- elif (i % 5 == 0):
-  print(f"{i} -> buzz")
- elif i > 0:
-  print(f"{i}")
+for i in range(101):
+	if (i % 3 == 0) and (i % 5 == 0):
+		print(f"{i} -> fizzbuzz")
+	elif (i % 3 == 0):
+		print(f"{i} -> fizz")
+	elif (i % 5 == 0):
+		print(f"{i} -> buzz")
+	elif i > 0:
+		print(f"{i}")
 
-#Tardé 6 minutos en resolverlo
+# Inicié a las 9:25 pm del 19 de noviembre de 2023
+# Tardé 6 minutos en resolverlo
