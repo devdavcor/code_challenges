@@ -1,1 +1,1 @@
-print("Archivo del challenge 15")
+print("Archivo del 15")
